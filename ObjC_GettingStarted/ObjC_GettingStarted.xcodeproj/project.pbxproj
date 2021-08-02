@@ -65,8 +65,7 @@
 				04D9D2DB26B7971A00DD1AE4 /* AppDelegate.m */,
 				04D9D2DD26B7971A00DD1AE4 /* SceneDelegate.h */,
 				04D9D2DE26B7971A00DD1AE4 /* SceneDelegate.m */,
-				04D9D2E026B7971A00DD1AE4 /* ViewController.h */,
-				04D9D2E126B7971A00DD1AE4 /* ViewController.m */,
+				04D9D2F426B797DC00DD1AE4 /* Controller */,
 				04D9D2E326B7971A00DD1AE4 /* Main.storyboard */,
 				04D9D2E626B7971C00DD1AE4 /* Assets.xcassets */,
 				04D9D2E826B7971C00DD1AE4 /* LaunchScreen.storyboard */,
@@ -74,6 +73,15 @@
 				04D9D2EC26B7971C00DD1AE4 /* main.m */,
 			);
 			path = ObjC_GettingStarted;
+			sourceTree = "<group>";
+		};
+		04D9D2F426B797DC00DD1AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04D9D2E026B7971A00DD1AE4 /* ViewController.h */,
+				04D9D2E126B7971A00DD1AE4 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

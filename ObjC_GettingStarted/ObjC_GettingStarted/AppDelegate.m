@@ -6,6 +6,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -14,8 +17,17 @@
 @implementation AppDelegate
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // bypass viewcontroller
+    self.window = UIWindow.new;
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:ViewController.new];
+    
     return YES;
 }
 
